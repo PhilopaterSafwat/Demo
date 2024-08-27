@@ -27,8 +27,7 @@ export default function Products() {
         setfiltered(data)
     }, [data])
     function test(e) {
-        setfiltered(data.filter(item => item.title.toLowerCase().includes(e)));
-        console.log(e);
+        setfiltered(data.filter(item => item.title.toLowerCase().includes(e.toLowerCase())));
     }
     return <>
         <HelmetProvider>

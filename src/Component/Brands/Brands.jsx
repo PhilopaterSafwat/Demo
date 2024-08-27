@@ -69,7 +69,7 @@ export default function Brands() {
                 <DialogBackdrop className="fixed inset-0 bg-black/30" />
                 <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
                     <DialogPanel className="max-w-lg space-y-4 bg-white p-12">
-                        <div className='flex items-center'>
+                        <div className='flex items-center md:flex-row flex-col'>
                             <div>
                                 <h2 className='text-main text-4xl'>{swar.category}</h2>
                                 <h2>{swar.slug}</h2>
